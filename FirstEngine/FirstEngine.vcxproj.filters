@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{577ee08c-4e8d-4667-86d6-ee518b33bc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastDelegate">
+      <UniqueIdentifier>{d6decb8f-1571-4548-84a9-80a401aa1981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b9cd9980-9db6-4cad-b260-247450125ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessManager">
+      <UniqueIdentifier>{155c6d00-439c-496e-95f2-1e7160d88614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml">
+      <UniqueIdentifier>{ab180888-bc20-4563-9c59-881906fcacbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{f72d4cac-fd2d-4f69-a99b-50b13765a0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GZip">
+      <UniqueIdentifier>{6fec1642-a1e0-4dac-80a4-c5c5d28e40db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorManager">
+      <UniqueIdentifier>{24328c4f-1b81-417d-b09f-9955a4cab94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NodeManager">
+      <UniqueIdentifier>{20a751ee-56b9-40c6-8a15-28e97e631702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0351976e-9049-4bb1-a844-fcc38444f67f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FastDelegate.h">
+      <Filter>FastDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegateBind.h">
+      <Filter>FastDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericObjectFactory.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEventData.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventData.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventManager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CountProcess.h">
+      <Filter>ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="stringUtility.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryUtility.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultResourceLoader.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceExtraData.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceFile.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceLoader.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResCache.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResHandle.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceZipFile.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlResourceExtraData.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlResourceLoader.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipFile.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="deflate.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="gzguts.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="inffast.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="inffixed.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="inflate.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="inftrees.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="trees.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="zutil.h">
+      <Filter>GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorComponent.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorFactory.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNodeProperties.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixStack.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_Modified_Render_Component.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_New_Render_Component.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_New_Actor.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RootNode.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_Destroy_Actor.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_Move_Actor.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRenderComponent.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponentInterface.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TeapotRenderComponent.h">
+      <Filter>ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineOptions.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_Environment_Loaded.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtData_Request_New_Actor.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer11.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderState.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LightNode.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LightProperties.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHolder.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShaderClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngineState.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngineLogic.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameView.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanView.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreenElement.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenElementScene.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameViewType.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>NodeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IEventManager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CountProcess.cpp">
+      <Filter>ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="stringUtility.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultResourceLoader.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResCache.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResHandle.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceZipFile.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlResourceExtraData.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlResourceLoader.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipFile.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="adler32.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="deflate.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzclose.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzlib.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzread.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzwrite.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="infback.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="inffast.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="inflate.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="inftrees.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="trees.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="uncompr.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="zutil.c">
+      <Filter>GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorComponent.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorFactory.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNodeProperties.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RootNode.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRenderComponent.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TeapotRenderComponent.cpp">
+      <Filter>ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineOptions.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LightNode.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShaderClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer11.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngineLogic.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>NodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanView.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EngineOptions.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stone01.tga">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stone02.tga">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BasicColorPixelShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BasicColorVertexShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BasicTexturePixelShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BasicTextureVertexShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
